@@ -356,6 +356,9 @@ img {
   }
 }
 @media (max-width: 991px) {
+  .contentBx {
+    text-align: center;
+  }
   header,
   header.sticky {
     padding: 20px 50px;
