@@ -10,6 +10,7 @@
   box-sizing: border-box;
   font-family: var(--Poppins);
   scroll-behavior: smooth;
+  user-select: none;
 }
 
 section {
