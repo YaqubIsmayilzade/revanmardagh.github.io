@@ -487,3 +487,17 @@ img {
     padding: 100px 20px;
   }
 }
+
+
+
+
+.fullname {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.fullname input {
+width: 49%
+}
+
