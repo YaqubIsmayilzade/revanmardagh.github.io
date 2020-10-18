@@ -487,13 +487,9 @@ img {
     padding: 100px 20px;
   }
 }
-
-
-
-
 .fullname {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 
 
