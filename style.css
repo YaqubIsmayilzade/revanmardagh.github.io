@@ -489,10 +489,14 @@ img {
 }
 
 @media (max-width: 400px) {
-.fullname {
-  display: block;
+  .fullname {
+    display: block;
+  }
+  .fullname input {
+    width: 100%;
   }
 }
+
   
   
 .fullname {
