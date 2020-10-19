@@ -487,6 +487,14 @@ img {
     padding: 100px 20px;
   }
 }
+
+@media (max-width: 600px) {
+.fullname {
+  display: block;
+  }
+}
+  
+  
 .fullname {
   display: flex;
   justify-content: space-between !important;
