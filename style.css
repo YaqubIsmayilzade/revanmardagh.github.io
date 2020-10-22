@@ -422,10 +422,10 @@ img {
     padding: 150px 50px 100px;
   }
   .banner h2 {
-    font-size: 1.5em;
+    font-size: 3em;
   }
   .banner h3 {
-    font-size: 1em;
+    font-size: 2em;
   }
 
   .btn {
@@ -488,18 +488,32 @@ img {
   }
 }
 
+@media (max-width: 750px) {
+  .banner h2 {
+    font-size: 2.5em;
+  }
+  .banner h3 {
+    font-size: 2em;
+  }
+}
 
-  
+@media (max-width: 620px) {
+  .banner h2 {
+    font-size: 2em;
+  }
+  .banner h3 {
+    font-size: 1.5em;
+  }
+}
+
 .fullname {
   display: flex;
   justify-content: space-between !important;
 }
 
-
 .fullname input {
-width: 49%;
+  width: 49%;
 }
-
 
 @media (max-width: 400px) {
   .fullname {
@@ -509,5 +523,3 @@ width: 49%;
     width: 100%;
   }
 }
-
-  
